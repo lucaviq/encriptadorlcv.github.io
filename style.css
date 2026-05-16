@@ -28,13 +28,19 @@ header{
     width:100%;
     display:flex;
     justify-content:center;
-    margin-bottom:40px;
+    align-items:center;
+
+    margin-bottom:10px;
 }
 
 header img{
-    width:100%;
-    max-width:280px;
+    width:auto;
+    max-width:160px;
+
     height:auto;
+
+    display:block;
+    object-fit:contain;
 }
 
 /* MAIN */
